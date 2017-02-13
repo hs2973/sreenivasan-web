@@ -82,9 +82,10 @@
 							<p class="title">Assistant Professor of Psychology</p>
 							<p class="affilation">Affilation in Biology</p>
 							<p class="email"><a href="mailto:kartik.sreenivasan@nyu.edu" />kartik.sreenivasan@nyu.edu</a></p>
-							<p class="bio">
+							<p class="bio hidden">
 							Kartik received his PhD in Neuroscience from the University of Pennsylvania. Prior to joining the faculty at NYU Abu Dhabi, he was a postdoc in the D'Esposito lab at the University of California, Berkeley.
 							</p>
+							<p>[<a href="#" class="toggle">more</a>]</p>
 						</div>
 					</li>
 				</ul>
@@ -100,9 +101,10 @@
 						<div class="detail p-9" style="padding-left: 20px;">
 							<h4 class="name">Kübra Kömek Kırlı</h4>
 							<p class="email"><a href="mailto:kk100@nyu.edu" />kk100@nyu.edu</a></p>
-							<p class="bio">
+							<p class="bio hidden">
 							Kubra got her PhD from Carnegie Mellon University in Computational Neuroscience in 2014. Her dissertation focused on computational models of brain rhythm disturbances in schizophrenia. Before that, she completed her B.A. degrees in Mathematics and Computational Neuroscience at Skidmore College in 2010. She joined New York University Abu Dhabi in 2014 as a Post-Doctoral Associate and her current projects implement neuroimaging methodologies such as EEG and MEG combined with computational modelling approaches to gain better insight into how working memory works.
 							</p>
+							<p>[<a href="#" class="toggle">more</a>]</p>
 						</div>
 					</li>
 				</ul>
@@ -118,9 +120,10 @@
 						<div class="detail p-9" style="padding-left: 20px;">
 							<h4 class="name">Israr Ul Haq</h4>
 							<p class="email"><a href="mailto:israr@nyu.edu" />israr@nyu.edu</a></p>
-							<p class="bio">
+							<p class="bio hidden">
 							Israr did his M.B.B.S at the Aga Khan University Medical School in Karachi. During his studies he spent time as a visiting scholar at Duke University and Boston University to get more exposure to Neuroscience research. He continued on the research path after graduation by joining the Person Perception lab at NYU Abu Dhabi and then became a member of the Sreenivasan lab with burgeoning interests in Cognition and working memory. Israr aspires to specialize in Clinical Neurology while simultaneously pursuing his research interests in order to work both as a physician and a researcher in the future.
 							</p>
+							<p>[<a href="#" class="toggle">more</a>]</p>
 						</div>
 					</li>
 
@@ -131,10 +134,11 @@
 
 						<div class="detail p-9" style="padding-left: 20px;">
 							<h4 class="name">Michael Payton</h4>
-							<p class="email"><a href="mailto:michael.payton@nyu.edu" />michael.payton@nyu.edu</a><</p>
-							<p class="bio">
+							<p class="email"><a href="mailto:michael.payton@nyu.edu" />michael.payton@nyu.edu</a></p>
+							<p class="bio hidden">
 							A Toronto native and the Canadian grace of New York City, Michael is currently exploring the interaction between feature and spatial working memory in collaboration with the Curtis Lab at NYU New York. He has also studied Psycholinguistics and Evolutionary Cognition at labs in York University and Harvard.
 							</p>
+							<p>[<a href="#" class="toggle">more</a>]</p>
 						</div>
 					</li>
 				</ul>
@@ -178,5 +182,24 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <script>
+    	$(document).ready(function () {
+			    $(".people a.toggle").click(function (e) {
+			    		e.preventDefault();
+
+			        $(this).parent().parent().find(".bio").toggleClass("hidden unhidden");
+
+			        var text = $(this).text();
+			        
+			        if (text == "more") {
+			        	$(this).text("less");
+			        }else {
+			        	$(this).text("more");
+			        }
+			        
+			    });
+			});
+    </script>
   </body>
 </html>

@@ -67,6 +67,13 @@ body {
 	font-weight: 800;
 }
 
+.hidden {
+    display: none;
+}
+.unhidden {
+    display: block;
+}
+
 @media (max-width: 990px) {
 	.main .navbar-nav li:not(:last-child)::after{
 		content: "";
