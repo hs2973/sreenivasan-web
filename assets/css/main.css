@@ -32,14 +32,41 @@ body {
 	color: #ccc;
 }
 
-.info {
-	background-color: rgb(177, 247, 236);
-	color: #000;
+.alert {
 	border: none;
 	border-radius: 20px;
 	margin-top: 20px; 
 	padding: 28px;
 	font-size: 18px;
+	color: #000;
+}
+
+.bg-default {
+	background-color: rgb(177, 247, 236);
+}
+
+.bg-none {
+	background-color: none;
+}
+
+.bg-green {
+	background-color: #dff0d8;
+   border-color: #d0e9c6;
+}
+
+.bg-red {
+	background-color: #f2dede;
+  border-color: #ebcccc;
+}
+
+.bg-yellow {
+	background-color: #fcf8e3;
+  border-color: #faf2cc;
+}
+
+.bg-blue {
+	background-color: #d9edf7;
+  border-color: #bcdff1;
 }
 
 .list ul {
