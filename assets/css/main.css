@@ -11,6 +11,11 @@ body {
 	font-size: 40px;
 }
 
+.header a {
+	text-decoration: none;
+	color: #000;
+}
+
 .main .navbar-nav li {
 	display: inline-block;
 }
