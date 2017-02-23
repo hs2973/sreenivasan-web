@@ -75,3 +75,42 @@ To create a list, use the following template:
 The above code will look something as follows:
 
 <img width="782" alt="screen shot 2017-02-23 at 11 31 16 am" src="https://github.abudhabi.nyu.edu/storage/user/63/files/f64f71aa-f9bb-11e6-9c16-9322b68bce92">
+
+### People 
+
+Every people in `people.html` is denoted by this following `<li>` block. Remember that `<li>` refers to a list item represented by `<ul>`, and is part of the list template above.
+
+**People Block**
+
+```html
+<li class="d-flex flex-row align-items-center">
+	<div class="p-3">
+		<img src="assets/img/IMAGE_NAME.jpg" class="float-left rounded" width="180px" />
+	</div>
+	
+	<div class="detail p-9" style="padding-left: 20px;">
+		<h4 class="name">FULL_NAME</h4>
+		<p class="email"><a href="mailto:EMAIL_ADDRESS" />EMAIL_ADDRESS</a></p>
+		<p class="bio hidden">
+		DESCRIPTION
+		</p>
+		<p>[<a href="#" class="toggle">more</a>]</p>
+	</div>
+</li>
+```
+
+> Also note that, every position (`pricipal investigators`, `postdoctoral fellows` and so on) in the `people.html` have their own respective `<ul>` element block. So, when adding people, make sure that you insert the code template (people block) below in their respective positions as follows:
+
+```html
+<h3> postdoctoral fellows </h3>
+<ul>
+	<!-- insert people block here if he/she is a postdoctoral fellow -->
+</ul>
+
+<h3> undergraduate research assistants </h3>
+<ul>
+	<!-- insert people block here if he/she is a research assistant. -->
+</ul>
+```
+
+
