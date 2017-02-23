@@ -27,6 +27,8 @@ If you want to create a text block with background color, use following template
 **bg-red** </br>
 <img width="765" alt="screen shot 2017-02-23 at 11 36 19 am" src="https://github.abudhabi.nyu.edu/storage/user/63/files/5ad5f928-f9bc-11e6-8b67-dacdeb95c365">
 
+---
+
 ### List
 
 To create a list, use the following template:
@@ -75,6 +77,8 @@ To create a list, use the following template:
 The above code will look something as follows:
 
 <img width="782" alt="screen shot 2017-02-23 at 11 31 16 am" src="https://github.abudhabi.nyu.edu/storage/user/63/files/f64f71aa-f9bb-11e6-9c16-9322b68bce92">
+
+---
 
 ### People 
 
