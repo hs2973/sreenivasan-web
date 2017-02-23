@@ -19,6 +19,13 @@ If you want to create a text block with background color, use following template
 
 > `<p>` refers to the opening of the paragraph tag, and `</p>` refers to the corresponding closing tag.
 
+###### Preview
+
+**bg-default** <br/>
+<img width="767" alt="screen shot 2017-02-23 at 11 35 58 am" src="https://github.abudhabi.nyu.edu/storage/user/63/files/5af86ecc-f9bc-11e6-9a31-93ff7e1b81a6">
+
+**bg-red** </br>
+<img width="765" alt="screen shot 2017-02-23 at 11 36 19 am" src="https://github.abudhabi.nyu.edu/storage/user/63/files/5ad5f928-f9bc-11e6-8b67-dacdeb95c365">
 
 ### List
 
