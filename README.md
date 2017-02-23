@@ -65,3 +65,6 @@ To create a list, use the following template:
 > Only the text within the two opening and closing tags is affected.
 
 ###### Preview
+The above code will look something as follows:
+
+<img width="782" alt="screen shot 2017-02-23 at 11 31 16 am" src="https://github.abudhabi.nyu.edu/storage/user/63/files/f64f71aa-f9bb-11e6-9c16-9322b68bce92">
