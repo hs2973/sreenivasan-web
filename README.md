@@ -117,4 +117,19 @@ Every people in `people.html` is denoted by this following `<li>` block. Remembe
 </ul>
 ```
 
+---
+
+### Menu
+
+A menu item is represented by `<li>` tag like any other list item. It's code template is as follows:
+```html
+<li class="nav-item">
+	<a class="nav-link" href="PAGE_URL">Link</a>
+</li>
+```
+It has a name and a url corresponding to the page associated with its link, which is denoted by `href="PAGE_URL"`.
+
+To add the above list item into menu, you insert it inside `<ul></ul>` like in any other list.
+
+
 
