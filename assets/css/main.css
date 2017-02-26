@@ -75,7 +75,7 @@ body {
 }
 
 .list ul {
-	list-style-type: none; 
+	list-style-type: square; 
 	padding-left: 0px;
 }
 
@@ -83,7 +83,7 @@ body {
 	padding: 14px 0;
 }
 
-.list ul>li:not(:last-child) { 
+.people ul>li:not(:last-child) { 
 	border-bottom: 1px solid #eee;
 }
 
