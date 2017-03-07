@@ -179,7 +179,7 @@
 							<h4 class="name">Ainsley Temudo</h4>
 							<p class="email"><a href="mailto:ainsley.temudo@nyu.edu" />ainsley.temudo@nyu.edu</a></p>
 							<p class="bio hidden">
-							
+							Ainsley did her MSc in Cognitive Neuroscience at the University of York. She joined NYU Abu Dhabi in 2016. Her research interests are in Memory & Learning
 							</p>
 							<p>[<a href="#" class="toggle">more</a>]</p>
 						</div>
@@ -196,7 +196,7 @@
 							<h4 class="name">Kinza Maxood</h4>
 							<p class="email"><a href="mailto:k.maxood@nyu.edu" />k.maxood@nyu.edu</a></p>
 							<p class="bio hidden">
-							
+							Kinza grew up in U.A.E and Canada, and moved to Pakistan for medical school. During her years at Dow Medical College, she developed an interest in Neuropsychiatry, and did elective rotations in Canada in order to advance her knowledge in the field. Upon graduating with an M.B.B.S degree, she continued to engage in research by working at UAE University as a Neurophysiology Researcher. Her work there allowed her to gain expertise in all aspects of non-invasive brain stimulation (TMS, tDCS), and further sparked her interest in neuroscience. Kinza joined the Sreenivasan lab in March 2016, and is currently working on multiple projects focusing on various aspects of working memory. She hopes to pursue a PhD in Neuropsychiatry and discover novel approaches to detect and treat various neuropsychiatric disorders.
 							</p>
 							<p>[<a href="#" class="toggle">more</a>]</p>
 						</div>
@@ -213,7 +213,7 @@
 							<h4 class="name">Vahan Babushkin</h4>
 							<p class="email"><a href="mailto:vahan.babushkin@nyu.edu" />vahan.babushkin@nyu.edu</a></p>
 							<p class="bio hidden">
-							
+							Vahan did his BSc. in Electronics and Microelectronics at the Slavonic University in Yerevan and Msc. in Computing and Information Science in Masdar Institute of Technology, Abu Dhabi, specialising in application of Machine Learning techniques to various domains of Computational Science, including Computer Vision, Social Networks and Natural Language Processing. In 2015 he joined the Sreenivasan lab and currently his research is focused on the computational models of neurobiological processes in working memory.
 							</p>
 							<p>[<a href="#" class="toggle">more</a>]</p>
 						</div>
@@ -281,6 +281,13 @@
 			    $(".people a.toggle").click(function (e) {
 			    		e.preventDefault();
 
+			    		// hide all bios
+			    		/*
+			    		$(document).find(".bio.unhidden").toggleClass("unhidden hidden");
+			    		$(".people a.toggle").text("more");
+							*/
+							
+			    		// unhide the selected bio
 			        $(this).parent().parent().find(".bio").toggleClass("hidden unhidden");
 
 			        var text = $(this).text();
